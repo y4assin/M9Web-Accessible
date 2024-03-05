@@ -1,0 +1,77 @@
+.titulo_principal {
+    color: blue;
+    display: block;
+    margin-bottom: 6%;
+}
+
+.tiulos {
+    color: blue;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    width: 40%;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+}
+
+header {
+    display: flex;
+    border-top: 4px solid;
+    color: white;
+    align-content: center;
+    background-color: blue;
+}
+
+.titol {
+    display: block;
+    margin-bottom: 6%;
+}
+
+nav {
+    width: 65%;
+}
+
+.titol h1 {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+article {
+    display: flex;
+}
+
+.imatges {
+    width: 40%;
+}
+
+img {
+    width: 69%;
+}
+
+.parrafs {
+    width: 60%;
+    margin: 1%;
+}
