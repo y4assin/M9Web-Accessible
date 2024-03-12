@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilos.css">
+<title>Fotos Responsive</title>
+<style>
+    /* Estilos para hacer las imágenes responsive */
+    .responsive-img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Estilos para el contenedor de las imágenes */
+    .img-container {
+        width: 50%;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    /* Clearfix para evitar que el contenedor se colapse */
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Estilos adicionales */
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    /* Centrar el formulario de búsqueda */
+    form {
+        margin-top: 20px; /* Espacio entre el menú y el formulario de búsqueda */
+        text-align: center;
+    }
+
+    form input[type="text"],
+    form button[type="submit"] {
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <ul>
+                <li><a href="#" aria-label="Ir a la página principal">Brand</a></li>
+                <li><a href="#" aria-label="Ver precios">Pricing</a></li>
+                <li><a href="#" aria-label="Acerca de nosotros">About</a></li>
+                <li><a href="/activitat_colors.html" aria-label="inicio">Inicio</a></li>
+            </ul>
+        </nav>
+        <form role="search">
+            <input type="text" placeholder="Search" aria-label="Buscar">
+            <button type="submit" aria-label="Enviar búsqueda">Search</button>
+        </form>
+    </header>
+<div class="img-container">
+    <img src="/img/contrast_checker.png" alt="Imagen 1" class="responsive-img">
+</div>
+<div class="img-container">
+    <img src="/img/demostracio_proba.png" alt="Imagen 2" class="responsive-img">
+</div>
+
+<div class="clearfix"></div>
+
+</body>
+</html>

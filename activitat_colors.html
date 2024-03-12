@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Estilos adicionales */
+        header {
+            text-align: center;
+        }
+
+        nav ul {
+            display: inline-block;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        form {
+            margin-top: 20px; 
+            text-align: center;
+        }
+
+        form input[type="text"],
+        form button[type="submit"] {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <ul>
+                <li><a href="#" aria-label="Ir a la página principal">Brand</a></li>
+                <li><a href="#" aria-label="Vser precios">Pricing</a></li>   
+                <li><a href="#" aria-label="Acerca de nosotros">About</a></li>
+                <li><a href="pruebas_colors.html" aria-label="pruebas">Pruebas</a></li>
+            </ul>
+        </nav>
+        <form role="search">
+            <input type="text" placeholder="Buscador" aria-label="Buscar">
+            <button type="submit" aria-label="Enviar búsqueda">Buscar</button>
+        </form>
+    </header>
+    <main role="main">
+        <article class="titol">
+            <h1>IOS o Android ?</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </article>
+
+        <article>
+            <section class="parrafs" role="ubicacions">
+                <h3>Ecosystema Apple</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no strud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+            <section class="imatges" style="text-align: end;">
+                <img src="https://www.macworld.com/wp-content/uploads/2023/12/apple-ecosystem.jpg?resize=1240%2C826&quality=50&strip=all" alt="Imagen del ecosstema Apple">
+                <p style="color: black;"><a href="https://www.pexels.com/ca-es/foto/dona-carrer-portatil-ordinador-portatil-5239712/"
+                class="allicencies">licencia foto de MacWord</a></p>
+            </section>
+        </article>
+
+        <article>
+            <section class="imatges">
+                <img src="https://www.laprensa.hn/binrepository/1020x580/0c0/0d0/none/11004/NIPB/lp-jts-principal_2672049_20221012175307.jpg" alt="Imagen de ecostema Samsung">
+                <p style="color: black;"><a href="https://www.pexels.com/ca-es/foto/dona-carrer-portatil-ordinador-portatil-5239712/"
+                    class="allicencies">licencia foto de laPrensa</a></p>
+            </section>
+            <section role="ubicacions" class="parrafs" style="margin-left: 3%;">
+                <h3>Ecosystema Samsung</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no strud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+        </article>
+    </main>
+</body>
+<footer role="footerPagina">
+    <hr style="color: #931621;">
+    &copy;  Todos los derechos reservados Copyright 2024
+</footer>
+</html>

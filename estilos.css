@@ -1,11 +1,11 @@
 .titulo_principal {
-    color: blue;
+    color: #931621;
     display: block;
     margin-bottom: 6%;
 }
 
 .tiulos {
-    color: blue;
+    color: rgb(44, 44, 103);
     font-size: 20px;
 }
 
@@ -25,6 +25,7 @@ ul {
 }
 
 body {
+    color: black;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 0;
@@ -35,7 +36,7 @@ header {
     border-top: 4px solid;
     color: white;
     align-content: center;
-    background-color: blue;
+    background-color: #931621;
 }
 
 .titol {
@@ -45,6 +46,7 @@ header {
 
 nav {
     width: 65%;
+    display: block;
 }
 
 .titol h1 {
@@ -52,11 +54,11 @@ nav {
 }
 
 h1 {
-    color: blue;
+    color: #931621;
 }
 
 h3 {
-    color: blue;
+    color: #931621;
 }
 
 article {
@@ -74,4 +76,8 @@ img {
 .parrafs {
     width: 60%;
     margin: 1%;
+}
+
+.allicencies {
+color: black;
 }
